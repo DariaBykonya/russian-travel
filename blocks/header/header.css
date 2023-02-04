@@ -1,0 +1,30 @@
+.header {
+  margin: 0 auto;
+  /* margin-top: 28px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 92.5%; */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    /* width: 90.6%; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 28px 24px 0;
+    /* width: 93.75%; */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 16px 0 0;
+    /* width: 90%; */
+    margin-top: 16px;
+  }
+}

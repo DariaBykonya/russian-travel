@@ -1,0 +1,14 @@
+.page-content {
+  max-width: 1280px;
+  margin: 28px auto 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* padding: 0 48px;*/
+}
+
+@media screen and (max-width: 320px) {
+  .page-content {
+    margin: 16px auto 0;
+  }
+}

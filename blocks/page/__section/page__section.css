@@ -1,16 +1,15 @@
-.indent {
+.page__section {
   margin: 0 48px;
-  /* padding: 0 48px; */
 }
 
 @media screen and (max-width: 768px) {
-  .indent {
+  .page__section {
     margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .indent {
+  .page__section {
     margin: 0 16px;
   }
 }

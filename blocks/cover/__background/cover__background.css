@@ -10,8 +10,8 @@
   position: relative;
   background-size: cover;
   text-decoration: none;
-  /* z-index: 1; */
   color: #fff;
+  gap: 32px;
 }
 
 .cover__background::before {
@@ -45,5 +45,6 @@
 @media screen and (max-width: 320px) {
   .cover__background {
     min-height: 200px;
+    gap: 16px;
   }
 }

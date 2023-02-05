@@ -7,6 +7,7 @@
   line-height: 170%;
   letter-spacing: 2px;
   color: #aaaaaa;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {

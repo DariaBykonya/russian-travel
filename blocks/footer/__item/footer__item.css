@@ -1,0 +1,12 @@
+.footer__item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* gap: 18px; */
+}
+
+/* @media screen and (max-width: 600px) {
+  .footer__item {
+    margin-bottom: ;
+  }
+} */

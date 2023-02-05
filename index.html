@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title></title>
+    <title>Путешествия по России</title>
   </head>
   <body class="page">
     <div class="page-content">
       <header class="header indent">
-        <a href="/" class="header__logo"></a>
+        <a href="/">
+          <img class="header__logo" src="./images/logo.svg" alt="Логотип Россия" />
+        </a>
         <div class="header__langs">
           <a href="/" class="header__lang-link header__lang-link_active">Ru</a>
           <a href="/" class="header__lang-link">En</a>
@@ -113,7 +115,7 @@
         </section>
         <section class="places">
           <div class="place">
-            <h2 class="place__title">Куршская коса</h2>
+            <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -136,7 +138,7 @@
             </div>
           </div>
           <div class="place">
-            <h2 class="place__title">Кольский</h2>
+            <h3 class="place__title">Кольский</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a
@@ -163,7 +165,7 @@
             </div>
           </div>
           <div class="place">
-            <h2 class="place__title">Алтай</h2>
+            <h3 class="place__title">Алтай</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a
@@ -190,7 +192,7 @@
             </div>
           </div>
           <div class="place">
-            <h2 class="place__title">Зимний Байкал</h2>
+            <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
@@ -216,7 +218,7 @@
             </div>
           </div>
           <div class="place">
-            <h2 class="place__title">Карелия</h2>
+            <h3 class="place__title">Карелия</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
@@ -246,7 +248,28 @@
           </a>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <nav>
+          <ul class="footer__items">
+            <li class="footer__item">
+              <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">© 2020. Дарья Быконя</p>
+      </footer>
     </div>
   </body>
 </html>

@@ -9,7 +9,13 @@
   text-align: center;
   color: #ffffff;
   position: absolute;
-  top: 15%;
+  top: 33%;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    top: 25%;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -17,5 +23,11 @@
     font-size: 32px;
     line-height: 109%;
     max-width: 248px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    top: 18%;
   }
 }
